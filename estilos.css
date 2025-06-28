@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+  font-family: 'Fredoka One', cursive;
+  background: linear-gradient(135deg, #87CEEB, #1E90FF);
+  color: #2E4053;
+  margin: 0;
+  padding: 0;
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #FFE66D;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #FF6B6B;
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 2px 2px 0 #FFF176;
+}
+
+/* NAVEGACIÓN */
+nav {
+  background-color: #FF6B6B;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #FF5252;
+}
+
+/* SECCIONES */
+section {
+  background-color: #ffffff;
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border: 5px solid #FFE66D;
+}
+
+section h2 {
+  color: #1E90FF;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* TARJETAS (si se usan integrantes o juegos) */
+.card {
+  background-color: #FFF9C4;
+  border: 3px dashed #FF6B6B;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+.card img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* PIE DE PÁGINA */
+footer {
+  background-color: #1E90FF;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+/* BOTONES */
+button {
+  background-color: #FF6B6B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #E91E63;
+  font-family: 'Fredoka One', cursive;
+}
+
+button:hover {
+  background-color: #FF5252;
+  transform: translateY(-2px);
+}
+
+/* IMÁGENES GENÉRICAS */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
